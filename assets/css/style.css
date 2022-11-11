@@ -44,3 +44,126 @@ li {
     text-shadow: 1.5px 1px 3px var(--shadow);
     list-style-type: none;
 }
+
+h2{
+    font-family: sans-serif;
+    margin-top: -8rem;
+}
+
+.container {
+    width: 450px;
+    max-width: 70%;
+    background-color: lightsteelblue;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0 0 10px var(--shadow);
+}
+
+.button {
+    background-color: lightslategray;
+    color: var(--light);
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 5px 5px;
+    box-shadow: 0 0 5px var(--shadow);
+}
+
+.a-button-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.button:hover {
+    box-shadow: inset 0 0 5px var(--shadow);
+}
+
+#mainpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#time {
+    font-family: sans-serif;
+    color: blue;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+
+#the-quiz {
+    display: none;
+}
+
+#finished-result {
+    color: var(--light);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#quiz-done {
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#score-page {
+    display: none;
+    width: 40%;
+    border: 1px solid var(--shadow);
+    border-radius: 5px;
+    box-shadow: 0 0 10px var(--shadow);
+    border-bottom-style: groove;
+    padding-bottom: .2rem;
+    background: lightsteelblue;
+    margin-bottom: 15px;
+}
+
+#score-banner {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid var(--shadow);
+    background-color: #6081e3;
+    color: var(--light);
+    font-family: sans-serif;
+    text-shadow: 1.5px 1px 3px var(--shadow);
+}
+
+#name {
+    margin: .4rem;
+    height: 1.50rem;
+    background-color:steelblue;
+    color: var(--light);
+}
+
+#name-score {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+    padding: 8px;
+}
+
+#finished-score {
+    padding-bottom: 0.5rem;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#finished-buttons {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+#reply {
+    margin-bottom: 10px
+}
