@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="main-page" id="main">
+        <h2>Coding Quiz</h2>
+        <h3>There are five coding questions. Answer the following questions before
+            the timer runs out!
+        </h3>
+    </div>
+    <div class="container">
+        <div id="mainpage">
+            <button class="button" id="start-button">Start</button>
+            <button class="button" onclick="showScore()">Scores</button>
+        </div>
+
+        <div id="the-quiz">
+            <div id="time">Time Remaining:</div>
+            <div id="questions">The Questions</div>
+            <div class="a-button-grid">
+                <button class="button" id="a" onclick="checkAnswer('a')">A</button>
+                <button class="button" id="a" onclick="checkAnswer('b')">B</button>
+                <button class="button" id="a" onclick="checkAnswer('c')">C</button>
+                <button class="button" id="a" onclick="checkAnswer('d')">D</button>
+            </div>
+            <div id="finished-result"></div>
+        </div>
+
+    <div id="quiz-done">
+        <div id="finished-score"></div>
+        <input type="text" size="50" placeholder="Your name" id="name"/>
+        <button class="button" id="enter">Enter</button>
+    </div>
+
+    <div id="score-container">
+    <div id="score-page">
+        <div id="score-banner">
+            <h3>Name</h3>    
+            <h3>Score</h3>
+        </div>
+        <div class="name-score"></div>
+        <div id="score-name"></div>
+    </div>
+    
+    <div id="finished-buttons">
+        <button class="button" id="replay" onclick="replayQuiz()">Replay</button>
+        <button class="button" onclick="clearScore()">Reset</button>
+    </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
